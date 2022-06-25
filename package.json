@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "no-network-search",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Out in the woods and looking to settle an argument with friends? Add multiple questions and triggers a Google Search for them once you hit civilization back.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -17,6 +17,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^19.0.4"
+    "electron": "^19.0.4",
+    "electron-store": "^8.0.2",
+    "prettier": "^2.7.1"
   }
 }
